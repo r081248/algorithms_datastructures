@@ -8,7 +8,7 @@ void swap(int *a, int *b)
 	*b = temp;
 }
 
-void print_int_list(int *size, int *list)
+void print_int_list(int size, int *list)
 {
 	printf("\n\n");
 
@@ -17,5 +17,5 @@ void print_int_list(int *size, int *list)
 		printf("%d ",list[i]);
 	}
 
-	printf("\n");	Î
+	printf("\n");
 }
